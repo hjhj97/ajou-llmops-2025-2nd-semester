@@ -1,0 +1,41 @@
+---
+name: news_summary_v0.1
+description: 뉴스 기사 간단 요약 (한 단락, 사실 중심)
+inputs:
+  - name: article_text
+    type: string
+    description: 원본 뉴스 기사 전문
+  - name: target_language
+    type: string
+    description: 출력 언어 코드 (ko/en 등)
+    default: ko
+outputs:
+  - name: summary
+    type: string
+    description: 한 단락 요약문
+model:
+  provider: openai
+  name: gpt-4o-mini
+  parameters:
+    temperature: 0.2
+    max_tokens: 400
+---
+
+시스템 지시:
+너는 뉴스 요약 보조자다. 아래 기사를 한 단락으로 간결하고 사실 위주로 요약한다.
+추측이나 의견은 금지한다.
+
+사용자 입력:
+다음 뉴스 기사를 읽고 한 단락으로 요약하라.
+
+기사:
+{{article_text}}
+
+요구사항:
+- 한 단락 요약, 최대 120단어
+- 핵심 사실에 집중: 누가(Who), 무엇을(What), 언제(When), 어디서(Where), 왜(Why)
+- 의견/과장/추측 금지, 중립적 어조 유지
+- 출력은 본문 텍스트만 반환 (메타데이터/JSON 금지)
+
+언어:
+- 출력은 {{target_language}}로 작성
