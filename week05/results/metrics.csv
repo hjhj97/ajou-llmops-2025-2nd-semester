@@ -1,0 +1,5 @@
+Method,Recall@5,Recall@10,MRR,NDCG@5,NDCG@10
+Dense,,,,,
+BM25,,,,,
+Hybrid,,,,,
+Hybrid+Re-rank,,,,,
