@@ -1,0 +1,35 @@
+# NIST RAG + Agent 시스템 필수 패키지
+
+# LangChain 핵심 패키지
+langchain==0.3.27
+langchain-core==0.3.80
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+
+# LangGraph
+langgraph==0.6.11
+langgraph-checkpoint==2.1.2
+
+# LangSmith (추적 및 모니터링)
+langsmith==0.4.37
+
+# Pinecone (벡터 데이터베이스)
+pinecone-client==5.0.1
+
+# OpenAI
+openai==1.108.1
+
+# PDF 처리
+pypdf==5.1.0
+
+# 환경 변수 관리
+python-dotenv==1.0.1
+
+# 유틸리티
+tiktoken==0.9.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 비동기 처리
+aiohttp>=3.9.0
+
