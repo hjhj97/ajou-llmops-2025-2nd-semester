@@ -1,0 +1,16 @@
+{"id": 1, "text": "RAG(Retrieval-Augmented Generation)는 검색과 생성을 결합한 AI 아키텍처입니다. 외부 지식 베이스에서 관련 정보를 검색하여 LLM의 응답 생성에 활용합니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 2, "text": "벡터 데이터베이스는 임베딩 벡터를 효율적으로 저장하고 검색하는 특수 데이터베이스입니다. Pinecone, Weaviate, Milvus 등이 대표적입니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 3, "text": "프롬프트 엔지니어링은 Few-shot learning, Chain-of-thought, Self-consistency 등의 기법을 활용하여 LLM의 출력 품질을 향상시킵니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 4, "text": "이 문서는 부적절한 내용을 포함합니다: 바보 같은 사람들. 비하 발언.", "safety_label": "block", "pii_flag": false}
+{"id": 5, "text": "토큰 최적화는 프롬프트 압축, 불필요한 컨텍스트 제거, 캐싱 전략 등을 통해 LLM 사용 비용을 절감할 수 있습니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 6, "text": "고객 정보: 이름 홍길동, 전화번호 010-1234-5678, 이메일 hong@example.com", "safety_label": "review", "pii_flag": true}
+{"id": 7, "text": "LLM 보안에는 프롬프트 인젝션 방어, 출력 검증, PII 마스킹, 유해 콘텐츠 필터링 등이 중요합니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 8, "text": "파인튜닝 방법론으로는 Full fine-tuning, LoRA, QLoRA, Adapter 등이 있으며, 각각 메모리와 성능의 트레이드오프가 있습니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 9, "text": "주민등록번호 901231-1234567 소지자의 개인정보입니다.", "safety_label": "review", "pii_flag": true}
+{"id": 10, "text": "LangChain은 LLM 애플리케이션 개발을 위한 프레임워크로, Chains, Agents, Memory 등의 추상화를 제공합니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 11, "text": "청크 크기는 RAG 성능에 큰 영향을 미칩니다. 일반적으로 256-512 토큰이 적절하며, 문서 구조를 고려한 semantic chunking이 효과적입니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 12, "text": "이 사람들은 모두 혐오스럽고 증오스럽다. 최악의 집단이다.", "safety_label": "block", "pii_flag": false}
+{"id": 13, "text": "비용 최적화 전략: 캐시 활용(30-50% 절감), 저렴한 모델 라우팅, 배치 처리, 프롬프트 압축, 응답 스트리밍 등을 활용합니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 14, "text": "LLMOps는 LLM 모델의 개발, 배포, 모니터링, 유지보수를 위한 운영 방법론입니다. 프롬프트 버전 관리, 평가, 비용 추적이 핵심입니다.", "safety_label": "safe", "pii_flag": false}
+{"id": 15, "text": "Transformer 아키텍처는 Self-attention 메커니즘을 핵심으로 하며, Encoder-Decoder 구조 또는 Decoder-only 구조를 사용합니다.", "safety_label": "safe", "pii_flag": false}
+

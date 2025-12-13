@@ -1,0 +1,19 @@
+{
+  "total_requests": 40,
+  "blocked_count": 2,
+  "block_rate_pct": 5.0,
+  "pii_count": 5,
+  "pii_rate_pct": 12.5,
+  "total_cost_usd": 0.019476,
+  "mean_cost_usd": 0.000487,
+  "p50_cost_usd": 0.000495,
+  "p95_cost_usd": 0.000594,
+  "p99_cost_usd": 0.000607,
+  "mean_latency_ms": 0.0,
+  "p50_latency_ms": 0.0,
+  "p95_latency_ms": 0.0,
+  "base_monthly_cost": 29.21,
+  "best_monthly_cost": 14.61,
+  "potential_saving": 14.61,
+  "saving_pct": 50.0
+}
